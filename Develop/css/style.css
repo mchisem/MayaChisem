@@ -14,7 +14,21 @@ body {
     width: 100% !important;
     justify-content: flex-start !important;
     position: fixed !important;
-    top: 1% !important;
+    top: -1% !important;
+    background-color: black;
+    animation: navbar 4s ease-in;
+    z-index: 999;
+    height: 10vh;
+}
+
+@keyframes navbar {
+    0% {
+        margin-top: -120px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
 }
 
 #contact {
@@ -35,12 +49,12 @@ body {
 /* background */
 #s1 {
     display: flex !important;
-    height: 94vh !important;
+    height: 100vh !important;
     width: 100% !important;
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
 
 /* title */
@@ -110,6 +124,10 @@ body {
 }
 
 /* section 3 */
+#s3 {
+    background-image: linear-gradient(cadetblue, skyblue);
+    height: 70vh;
+}
 
 /* footer */ 
 /* #footer {
