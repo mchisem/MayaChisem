@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*******************************/
+/* navbar */
+/*******************************/
+.navbar {
+    animation: 0s;
+    height: 9vh;
+}
+
+.navbar-brand,
+.nav-link,
+.navbar .fa {
+    color: black !important;
+}
+
+.card {
+    position: absolute;
+    top: 9%;
+    color: black;
+    /* background-color: blue; */
+    max-width: 100% !important;
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: calc(0rem - 0px);
+}

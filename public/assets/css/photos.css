@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*******************************/
+/* navbar */
+/*******************************/
+.navbar {
+    animation: 0s;
+    background-color: black !important;
+    height: 9vh;
+}
+
+/*******************************/
+/* photo container */
+/*******************************/
+.card-columns {
+    padding: 4.3rem!important;
+    padding-top: 15% !important;
+    text-align: center;
+    color: black;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -15%);
+}
+
+.card {
+    border: none !important;
+    border-radius: none !important;
+    border-color: none !important;
+    padding: 2%;
+}
+
+.card-img-top {
+    border-top-left-radius: calc(0rem - 0px) !important;
+    border-top-right-radius: calc(0rem - 0px) !important;
+}
+
+.bg-primary {
+    background-color: none !important;
+}
+
+/*******************************/
+/* Navigation */
+/*******************************/
+.navigation {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1%;
+    font-size: 26px;
+    color: black;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    /* padding: 1%; */
+}
