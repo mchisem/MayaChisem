@@ -9,8 +9,14 @@
 /*******************************/
 .navbar {
     animation: 0s;
-    background-color: black !important;
+    background-color: white !important;
     height: 9vh;
+}
+
+.navbar-brand,
+.nav-link,
+.navbar .fa {
+    color: black !important;
 }
 
 /*******************************/
@@ -61,5 +67,14 @@
 .navigation a {
     text-decoration: none;
     color: black;
-    /* padding: 1%; */
+}
+
+.navigation span,
+.navigation i {
+    font-size: 16px;
+}
+
+.navigation:hover {
+    cursor: pointer;
+    opacity: .7;
 }

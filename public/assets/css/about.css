@@ -22,13 +22,17 @@
     position: absolute;
     top: 9%;
     color: black;
-    /* background-color: blue; */
     max-width: 100% !important;
     border-radius: 0 !important;
     border: none !important;
+    font-size: 20px;
 }
 
 .card-img {
-    width: 100%;
+    width: 104.6%;
     border-radius: calc(0rem - 0px);
+}
+
+.card-body {
+    padding-left: 5%;
 }
