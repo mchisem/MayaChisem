@@ -48,8 +48,76 @@
     border-top-right-radius: calc(0rem - 0px) !important;
 }
 
+.card-img-top:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 .bg-primary {
     background-color: none !important;
+}
+
+/*******************************/
+/* Light Box */
+/*******************************/
+.hide {
+    display: none;
+}
+
+#back {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+    /* opacity: 0.8; */
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: none;
+}
+
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vh;
+    z-index: 9999;
+    border-radius: calc(0rem - 0px) !important;
+    border: none;
+    background-color: none;
+}
+
+#close {
+    position: fixed;
+    color: white;
+    font-weight: bold;
+    border-radius: 10%;
+    font-size: 35px;
+    padding-left: 9px;
+    padding-right: 9px;
+    top: 10%;
+    right: 27%;
+    transform: translate(-10%, 0, 0,-27%);
+    border-radius: 90%;
+    margin: 0;
+    z-index: 9999;
+}
+
+#close:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 /*******************************/

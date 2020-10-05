@@ -1,15 +1,14 @@
 // Variables
 var modal = document.getElementById("back");
 var span = document.querySelector("#close");
-var images = document.querySelector(".image");
 var modalImg = document.querySelector(".modal-content");
 var content = document.querySelector("#content");
 
 // Event delegation for images
-const parent = document.querySelector(".container");
+const parent = document.querySelector(".card-columns");
 
 parent.addEventListener("click", event => {
-  if(event.target.className === "image") {
+  if(event.target.className === "card-img-top") {
   console.log(event.target)
   modal.style.display = "block";
 
