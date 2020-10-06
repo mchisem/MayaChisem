@@ -71,7 +71,7 @@
     align-content: center;
     text-align: center;
     background-color: black;
-    /* opacity: 0.8; */
+    opacity: 0.85;
     top: 0;
     right: 0;
     left: 0;
@@ -148,7 +148,9 @@
 }
 
 /*******************************/
+/*******************************/
 /* media queries */
+/*******************************/
 /*******************************/
 .navbar-light .navbar-toggler {
     opacity: 1;
