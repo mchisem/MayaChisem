@@ -19,6 +19,9 @@
     color: black !important;
 }
 
+/*******************************/
+/* About Container */
+/*******************************/
 .card {
     position: absolute;
     top: 9%;
@@ -26,7 +29,7 @@
     max-width: 100% !important;
     border-radius: 0 !important;
     border: none !important;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .card-img {
@@ -39,7 +42,9 @@
 }
 
 /*******************************/
+/*******************************/
 /* media queries */
+/*******************************/
 /*******************************/
 .navbar-light .navbar-toggler {
     opacity: 1;
