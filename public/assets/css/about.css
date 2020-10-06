@@ -10,6 +10,7 @@
 .navbar {
     animation: 0s;
     height: 9vh;
+    background-color: white !important;
 }
 
 .navbar-brand,
@@ -37,3 +38,34 @@
     padding-left: 5%;
 }
 
+/*******************************/
+/* media queries */
+/*******************************/
+.navbar-light .navbar-toggler {
+    opacity: 1;
+}
+
+.navbar-toggler-icon {
+    width: 1em;
+    z-index: 999;
+}
+
+.navbar-collapse.collapse.show {
+    background-color: white;
+    position: absolute;
+    padding: 5%;
+    left: 0;
+    top: 70%;
+    transform: translate(0, 0);
+}
+
+@media only screen and (max-width: 600px) {
+    #contact {
+        position: relative;
+        margin: auto;
+    }
+    
+    .logo {
+        display: none;
+    }
+}
