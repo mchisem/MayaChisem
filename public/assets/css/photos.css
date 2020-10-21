@@ -127,10 +127,25 @@
     position: fixed;
     bottom: 0;
     right: 0;
-    padding: 1%;
+    padding: 2%;
     font-size: 26px;
     color: black;
 }
+
+/* #right,
+#left {
+    position: fixed;
+    bottom: 0;
+    padding: 1%;
+}
+
+#right {
+    right: 0;
+}
+
+#left {
+    left: 0;
+} */
 
 .navigation a {
     text-decoration: none;

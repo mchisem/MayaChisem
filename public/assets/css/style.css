@@ -177,8 +177,8 @@ body {
 .navbar-light .navbar-toggler {
     border-radius: calc(0rem - 0px);
     background-color: white;
-    opacity: .5;
-    border: none;
+    border: 1px solid white;
+    color: white;
 }
 
 .navbar-toggler-icon {
@@ -187,7 +187,6 @@ body {
 }
 
 .navbar-collapse.collapse.show {
-    /* background-color: white; */
     position: absolute;
     padding: 5%;
     left: 0;
