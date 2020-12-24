@@ -1,6 +1,6 @@
 // Variables
 var modal = document.getElementById("back");
-var span = document.querySelector("#close");
+var closeImg = document.querySelector("#close");
 var modalImg = document.querySelector(".modal-content");
 var content = document.querySelector("#content");
 
@@ -16,12 +16,12 @@ parent.addEventListener("click", event => {
   //using event.target can make us target exactly what we need
   modalImg.src = event.target.src;
   content.classList.remove("hide");
-  span.classList.remove("hide");
+  closeImg.classList.remove("hide");
   }
   })
 
 // When the user clicks on (x), closes the modal
-span.onclick = function() {
+closeImg.onclick = function() {
   modal.style.display = "none";
   content.classList.add("hide");
 }
