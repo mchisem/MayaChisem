@@ -28,20 +28,25 @@ body {
 
 .loader {
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    /* width: 50px;
+    height: 50px; */
+    width: 100%;
+    height: 100% !important;
     position: relative;
-    border: 4px solid black;
-    animation: loader 3s infinite ease-in;
-    z-index: 999;
+    background-color: white;
+    /* border: 4px solid black; */
+    animation: loader 4s infinite ease-in;
+    z-index: 99999;
 }
 
 @keyframes loader {
-    0% { transform: rotate(0deg);}
+    /* 0% { transform: rotate(0deg);}
     25% { transform: rotate(180deg);}
     50% { transform: rotate(180deg);}
     75% { transform: rotate(360deg);}
-    100% { transform: rotate(360deg);}  
+    100% { transform: rotate(360deg);}   */
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(100%);}
 }
 
 /***************************/
