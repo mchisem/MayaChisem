@@ -26,7 +26,7 @@
     "gitignore": "^0.6.0",
     "material": "^0.4.3",
     "material-ui": "^0.20.2",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "peer": "^0.5.3",
     "react-dom": "^16.13.1",
     "ui": "^0.2.4"
